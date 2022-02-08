@@ -1,0 +1,10 @@
+static int LeapYear(int year){
+//enter your code here
+
+if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
+    // System.out.println("Leap Year");
+        return 1;
+    }
+    // System.out.println("Not A Leap Year");
+        return 0;
+}
