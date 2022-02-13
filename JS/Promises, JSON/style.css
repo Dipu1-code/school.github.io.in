@@ -22,7 +22,7 @@ body{
      display: flex;
      justify-content: space-between;
 }
-.btn button{
+.buttons button{
      background-color: rgb(45, 146, 241);
      padding: .4rem 1rem;
      font-size: 1.2rem;
