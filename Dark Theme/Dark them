@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta name = "viewport" content="width= device-width" intial-scale = 0.1>
+  
+
+    <title>Dard Theme</title>
+    <style>
+          html, body {
+          margin: 0px;
+          height: 100%;
+          }
+
+          #app {
+              height: 100%;
+              padding: 10px;
+          } 
+
+          body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+          }
+
+          .dark-mode {
+            background-color: black;
+            color: white;
+}
+
+</style>
+</head>
+<div id="app" class="day"> 
+    <p> Fullstack Developer</p>
+    <button id="swap" class="button_day">Toggle Theme</button>
+    
+</div>
+<script>
+const btn = document.querySelector("button");
+const day = document.querySelector(".day");
+
+
+btn.addEventListener("click", swapTheme);
+function swapTheme() {
+    //var element = document.body;
+    day.classList.toggle("dark-mode");
+}
+
+</script>
+</body>
+</html>
+
